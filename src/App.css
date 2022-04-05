@@ -1,0 +1,28 @@
+* {
+  text-align: center;
+}
+
+button {
+  background: black;
+  color: cornsilk;
+  padding: 10px 20px;
+  border-radius: 0;
+  border: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.stop {
+  margin: 0 15px;
+}
+
+button:disabled {
+  background-color: rgb(131, 131, 131);
+  color: #ffffff75;
+}
+
+h1 {
+  color: orange;
+}
